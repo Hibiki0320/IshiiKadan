@@ -1,0 +1,120 @@
+@charset "UTF-8";
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: “Times New Roman”, “游明朝”, “Yu Mincho”, “游明朝体”, “YuMincho”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, “HiraMinProN-W3”, “HGS明朝E”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#index .top {
+  background-image: url(images/onsen-header.png);
+}
+@media screen and (max-width:599px) {
+  #index .contents-inner .concept p span {
+    display: inline;
+  }
+  #index .contents-inner .concept p .second, #index .contents-inner .concept p .third {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 600px) {
+  #index .contents-inner .concept p span {
+    display: block;
+  }
+}
+#index .contents-inner .detail .item .description .primary {
+  line-height: 1.75;
+}
+@media screen and (max-width: 767px) {
+  #index .contents-inner .detail #first .description {
+    background-image: url(images/onsen01.png);
+  }
+  #index .contents-inner .detail #second .description {
+    background-image: url(images/onsen02.png);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  #index .contents-inner .detail #first .description {
+    padding: 4rem 2rem 4rem 12rem;
+  }
+  #index .contents-inner .detail #second img {
+    right: 0;
+  }
+  #index .contents-inner .detail #second .description {
+    left: 0;
+    padding: 4rem 10rem 4rem 2rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #index .contents-inner .detail #first .description {
+    padding: 6rem 0 0 23.8rem;
+  }
+  #index .contents-inner .detail #first .description .primary span {
+    display: inline-block;
+  }
+  #index .contents-inner .detail #second img {
+    right: 0;
+  }
+  #index .contents-inner .detail #second .description {
+    bottom: 0;
+    left: 0;
+    padding: 6rem 0 0 6rem;
+  }
+  #index .contents-inner .detail #second .description .primary span {
+    display: block;
+  }
+}
+#index .contents-inner .eohs {
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #E7E7E7;
+  border-bottom: 1px solid #E7E7E7;
+}
+#index .contents-inner .eohs-inner {
+  width: 90%;
+  max-width: 88rem;
+  padding: 9.55rem 0 7.4rem;
+  margin: 0 auto;
+}
+#index .contents-inner .eohs-inner h4 {
+  font-size: 2.6rem;
+  margin-bottom: 5.15rem;
+}
+#index .contents-inner .eohs-inner .concrete {
+  border-top: 1px solid #E7E7E7;
+}
+#index .contents-inner .eohs-inner .concrete .efficacy, #index .contents-inner .eohs-inner .concrete .springQuality, #index .contents-inner .eohs-inner .concrete .drinkingEffect {
+  width: 100%;
+  height: auto;
+  font-size: 1.5rem;
+  padding: 1.75rem 0;
+  border-bottom: 1px solid #E7E7E7;
+  box-sizing: border-box;
+  display: flex;
+}
+#index .contents-inner .eohs-inner .concrete .efficacy .heading, #index .contents-inner .eohs-inner .concrete .springQuality .heading, #index .contents-inner .eohs-inner .concrete .drinkingEffect .heading {
+  width: 25%;
+  text-align: left;
+}
+#index .contents-inner .eohs-inner .concrete .efficacy .text, #index .contents-inner .eohs-inner .concrete .springQuality .text, #index .contents-inner .eohs-inner .concrete .drinkingEffect .text {
+  width: 75%;
+  text-align: left;
+}
+#index .contents-inner .eohs-inner .concrete .efficacy p, #index .contents-inner .eohs-inner .concrete .springQuality p, #index .contents-inner .eohs-inner .concrete .drinkingEffect p {
+  line-height: 1.2334;
+}/*# sourceMappingURL=spa.css.map */
